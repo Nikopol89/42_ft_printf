@@ -25,7 +25,7 @@ typedef struct s_struct
 	int					cnt;
 }						t_struct;
 
-int						ft_pf_printf(const char *str, ...);
+int						ft_printf(const char *str, ...);
 char					*ft_pf_flag_pad(char *str, t_struct *fl);
 char					*ft_pf_flag_zero(char *str, t_struct *fl, va_list args);
 char					*ft_pf_flag_width(char *str, t_struct *fl);

@@ -62,7 +62,7 @@ static void	ft_pf_check_conv(char *str, t_struct *fl, va_list args)
 		ft_pf_conv_n(fl, args);
 }
 
-int	ft_pf_printf(const char *str, ...)
+int	ft_printf(const char *str, ...)
 {
 	va_list		args;
 	t_struct	fl;
